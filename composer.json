@@ -18,5 +18,12 @@
         "psr-4": {
             "Andphp\\LaravelApiException\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AndPHP\\LaravelApiException\\AndphpExceptionServiceProvider"
+            ]
+        }
     }
 }
