@@ -1,6 +1,6 @@
 <?php
 
-namespace AndPHP;
+namespace AndPHP\LaravelApiException;
 
 use Illuminate\Support\ServiceProvider;
 

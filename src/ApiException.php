@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AndPHP;
+namespace AndPHP\LaravelApiException;
 
 use Exception;
 
