@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "415d3daeef70be24808287dcce3a1458",
+    "content-hash": "a1cc957a738f40a220ba5e58e495ee0d",
     "packages": [
         {
             "name": "andphp/laravel-api-output",

@@ -4,6 +4,7 @@
 namespace AndPHP\LaravelApiException;
 
 use Illuminate\Foundation\Exceptions\Handler;
+use AndPHP\LaravelApiOutput\Output;
 use Throwable;
 
 class ApiHandle extends Handler
