@@ -25,8 +25,5 @@
                 "AndPHP\\LaravelApiException\\AndphpExceptionServiceProvider"
             ]
         }
-    },
-    "config": {
-        "sort-packages": true
     }
 }

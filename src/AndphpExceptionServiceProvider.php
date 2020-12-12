@@ -26,6 +26,8 @@ class AndphpExceptionServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([ __DIR__.'/config/errorCode.php' => config_path('errorCode.php')],'config');
+        $this->publishes([
+            __DIR__.'/config/errorCode.php' => config_path('errorCode.php'),
+        ]);
     }
 }
