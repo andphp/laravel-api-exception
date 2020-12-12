@@ -13,7 +13,10 @@ class AndphpExceptionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(ApiException::class, function () {
+            return new ApiException();
+        });
+
     }
 
     /**
