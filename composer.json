@@ -1,0 +1,22 @@
+{
+    "name": "andphp/laravel-api-exception",
+    "description": "dev",
+    "type": "library",
+    "require": {
+        "andphp/laravel-api-output": "dev-master",
+        "laravel/framework": ">=8.12"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Da Xiong",
+            "email": "10000@andphp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Andphp\\": "src/"
+        }
+    }
+}
