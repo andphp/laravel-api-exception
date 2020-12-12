@@ -4,7 +4,7 @@ namespace AndPHP\LaravelApiException;
 
 use Illuminate\Support\ServiceProvider;
 
-abstract class AndphpExceptionServiceProvider extends ServiceProvider
+class AndphpExceptionServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
