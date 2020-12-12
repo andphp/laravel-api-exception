@@ -32,7 +32,7 @@ class ApiHandle extends Handler
 
         if ($return_type === 'json') {
             $data = empty($this->data) ? [
-                'describe' => config('error_code.' . $this->errorCode,$this->msg)
+                'describe' => config('error.' . $this->errorCode,$this->msg)
             ] : $this->data;
             return Output::outJson($data, $this->msg, $this->errorCode, $this->code);
         } else {
